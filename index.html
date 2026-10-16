@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sheroz Shahid Tabassum | Explainable AI for battery state estimation</title>
+  <meta name="description" content="Sheroz Shahid Tabassum, M.E. Mechatronics Engineering at NUST. Physics-informed and explainable machine learning for lithium-ion battery state estimation. Seeking PhD opportunities.">
+  <meta name="color-scheme" content="light">
+  <meta property="og:title" content="Sheroz Shahid Tabassum">
+  <meta property="og:description" content="Physics-informed and explainable machine learning for reliable battery state estimation.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230B1F3A'/%3E%3Cpath d='M6 22 C12 22 13 10 19 10 S25 20 27 20' fill='none' stroke='%232FBFA9' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="#home">Sheroz Shahid Tabassum</a>
+      <nav aria-label="Main">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#awards">Awards</a>
+        <a href="#connections">Connections</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero wrap" id="home">
+      <div class="hero-side">
+        <img class="portrait" src="assets/photo.jpg" width="300" height="375" alt="Portrait of Sheroz Shahid Tabassum">
+        <div class="contact" id="contact">
+          <h2 class="contact-title">Contact</h2>
+          <p class="label">Academic email</p>
+          <p><a href="mailto:stabassum.mts24ceme@student.nust.edu.pk">stabassum.mts24ceme@student.nust.edu.pk</a></p>
+          <!-- TODO: replace with your personal email address in both places below. -->
+          <p class="label">Personal email</p>
+          <p><a href="mailto:add-personal-email@example.com">add-personal-email@example.com</a></p>
+          <ul class="plain">
+            <li><a href="https://github.com/sherozshahid11">GitHub</a></li>
+            <li><a href="https://orcid.org/0009-0007-8988-6969">ORCID</a></li>
+            <li><a href="https://www.researchgate.net/profile/Sheroz-Shahid">ResearchGate</a></li>
+            <!-- TODO: add your full Google Scholar profile link, which ends in ?user=..., then remove this comment.
+            <li><a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a></li> -->
+            <li><a href="cv/Sheroz_Shahid_Tabassum_CV.pdf">Curriculum vitae (PDF)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-text">
+        <p class="badge">Seeking PhD positions</p>
+        <p class="intro">Hi, I am Sheroz Shahid Tabassum, currently seeking PhD opportunities. My research leverages machine learning to estimate the hidden internal states of lithium-ion batteries, such as state of charge and core temperature, accurately enough to keep energy infrastructure resilient and reliable. I combine physics-informed models with explainable AI, so every estimate arrives with a reason and a measure of trust, not just a number. My work builds on battery characterization, an equivalent-circuit observer, and a numeric transformer, developed with collaborators at NUST. <a href="cv/Sheroz_Shahid_Tabassum_CV.pdf">Find my CV here.</a></p>
+        <p class="hero-meta">M.E. Mechatronics Engineering, National University of Sciences and Technology (NUST), Islamabad</p>
+      </div>
+    </section>
+
+    <section class="wrap block" id="research" aria-labelledby="h-research">
+      <h2 id="h-research">Research</h2>
+      <div class="prose">
+        <p>My M.E. thesis, now submitted, asks how far a battery state estimate can be trusted. A 2RC equivalent-circuit observer separates physical features from the measured signals. A physics-informed numeric transformer learns from those features to estimate state of charge. SHAP then shows which features drive each estimate, and the task is framed as a multi-objective problem that trades model simplicity against predictive reliability.</p>
+      </div>
+
+      <ol class="pipeline" aria-label="Thesis pipeline">
+        <li><strong>Measured data</strong><span>Voltage, current, temperature</span></li>
+        <li><strong>2RC-ECM observer</strong><span>Separates physical features</span></li>
+        <li><strong>Numeric transformer</strong><span>Estimates state of charge</span></li>
+        <li><strong>SHAP</strong><span>Explains each estimate</span></li>
+        <li class="last"><strong>Reliability check</strong><span>Watches for drift</span></li>
+      </ol>
+
+      <div class="prose sub">
+        <h3>The reliability agent</h3>
+        <p>An accurate estimate is not enough if nobody knows when it stops being accurate. In my IECON work, two interacting agents, coordinated by an explainable reasoning layer, estimate state of charge and internal core temperature. A reliability agent then computes a reliability factor in real time, detects drift, and generates a diagnostic report. This turns a standard monitor into an accountable safety assistant.</p>
+      </div>
+
+      <div class="prose sub">
+        <h3>Future directions</h3>
+        <p>I aim to integrate this reliability-aware multi-agentic framework into the grid level, ensuring safety and resilience.</p>
+      </div>
+    </section>
+
+    <section class="wrap block" id="publications" aria-labelledby="h-pub">
+      <h2 id="h-pub">Publications</h2>
+
+      <article class="pub">
+        <div class="pub-head">
+          <span class="tag tag-accepted">Accepted</span>
+          <span class="tag tag-role">First author</span>
+          <span class="pub-year">2026</span>
+        </div>
+        <h3>Generative Explainable AI for Reliable State Estimation of Battery System</h3>
+        <p class="venue">Hackathon, IEEE International Conference on Responsible Artificial Intelligence, IECON</p>
+        <p class="authors"><b>Sheroz Shahid Tabassum</b>, Hafiz Muhammad Jawaad, M. Saeed, Arash Khalatbarsoltani, Umar Shahbaz Khan</p>
+        <p class="summary">Two interacting agents, coordinated by an explainable reasoning layer, estimate state of charge and internal core temperature. A reliability agent computes a reliability factor in real time to detect drift and produce a diagnostic report.</p>
+      </article>
+
+      <article class="pub">
+        <div class="pub-head">
+          <span class="tag tag-published">Published</span>
+          <span class="tag tag-role">First author</span>
+          <span class="pub-year">2025</span>
+        </div>
+        <h3>XAI-Enhanced Physics-Informed Neural Networks for State Estimation of Li-ion Batteries</h3>
+        <p class="venue">2025 5th International Conference on Digital Futures and Transformative Technologies (ICoDT2)</p>
+        <p class="authors"><b>Sheroz Shahid Tabassum</b>, Hafiz Muhammad Jawaad, M. Saeed, Hassan Elahi, Arash Khalatbarsoltani, Ayesha Zeb, Umar Shahbaz Khan</p>
+        <p class="summary">Combines a physics-informed neural network with explainable AI for lithium-ion state estimation.</p>
+        <!-- TODO: add one headline result here, for example the error figure from the paper. -->
+        <p class="links"><a href="https://doi.org/10.1109/ICoDT269104.2025.11360728">DOI 10.1109/ICoDT269104.2025.11360728</a></p>
+      </article>
+
+      <article class="pub">
+        <div class="pub-head">
+          <span class="tag tag-published">Published</span>
+          <span class="pub-year">2025</span>
+        </div>
+        <h3>Model Bias-aware Battery Fast Charging</h3>
+        <p class="venue">2025 5th International Conference on Digital Futures and Transformative Technologies (ICoDT2)</p>
+        <p class="authors">Hafiz Muhammad Jawaad, <b>Sheroz Shahid Tabassum</b>, M. Saeed, Hassan Elahi, Arash Khalatbarsoltani, Hamid Jabbar, Umar Shahbaz Khan</p>
+        <p class="summary">Addresses model bias in battery fast charging.</p>
+        <!-- TODO: add one headline result and your contribution to this paper. -->
+        <p class="links"><a href="https://doi.org/10.1109/ICoDT269104.2025.11360701">DOI 10.1109/ICoDT269104.2025.11360701</a></p>
+      </article>
+
+      <article class="pub">
+        <div class="pub-head">
+          <span class="tag tag-review">Under review</span>
+          <span class="tag tag-role">First author</span>
+          <span class="pub-year">2026</span>
+        </div>
+        <h3>A Critical Review of Battery State Estimation: from Black Box to Physics Guided Explainable AI</h3>
+        <p class="venue">Engineering Applications of Artificial Intelligence</p>
+        <p class="authors"><b>Sheroz Shahid Tabassum</b>, M. Saeed, Hafiz Muhammad Jawaad, Arash Khalatbarsoltani, Ayesha Zeb, Hassan Elahi, Umar Shahbaz Khan, Qadeer Ahmad, Yijun He</p>
+        <p class="summary">Reviews how battery state estimation has moved from black-box models toward physics-guided, explainable approaches.</p>
+      </article>
+    </section>
+
+    <section class="wrap block" id="experience" aria-labelledby="h-exp">
+      <h2 id="h-exp">Professional experience</h2>
+
+      <div class="row">
+        <p class="when">Sep 2025 to present<br><span>Islamabad, Pakistan</span></p>
+        <div class="what">
+          <h3>Teaching assistant</h3>
+          <p class="org">Industrial AI and IoT (IAI) Research Group</p>
+          <p>I guide undergraduate students through AI and IoT projects, including work in physics-constrained settings such as energy storage. The role showed me a gap: students learn AI tools, but get little structured exposure to deploying them in safety-critical engineering environments.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <p class="when">May 2022 to Sep 2022<br><span>Lahore, Pakistan</span></p>
+        <div class="what">
+          <h3>Intern engineer</h3>
+          <p class="org">T.M Rubber (Pvt) Ltd</p>
+          <p>Worked on an automated rubber tapping system to improve efficiency and reliable operation in the rubber processing workflow, and collaborated with the engineering team on automation and control tasks.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <p class="when">Oct 2020 to Jun 2021<br><span>Sahiwal, Pakistan</span></p>
+        <div class="what">
+          <h3>Undergraduate research student</h3>
+          <p class="org">Programming Fundamentals Lab, COMSATS University Islamabad</p>
+          <p>Developed a library management system in C++ to manage book records, student data, and borrowing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap block" id="education" aria-labelledby="h-edu">
+      <h2 id="h-edu">Education</h2>
+
+      <div class="row">
+        <p class="when">Sep 2024 to May 2026<br><span>Islamabad, Pakistan</span></p>
+        <div class="what">
+          <h3>M.E. in Mechatronics Engineering</h3>
+          <p class="org">National University of Sciences and Technology (NUST)</p>
+          <p><b>Thesis (submitted):</b> Explainable AI-guided optimization of data-driven battery state estimation.</p>
+          <p>Coursework: Intelligent Control in Electrochemical Systems, Machine Learning, Paradigms of Artificial Intelligence, Advanced Embedded Systems and Data Acquisition.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <p class="when">Sep 2019 to Jul 2023<br><span>Sahiwal, Pakistan</span></p>
+        <div class="what">
+          <h3>B.E. in Mechanical Engineering</h3>
+          <p class="org">COMSATS University</p>
+          <p><b>Thesis:</b> Design and fabrication of an automatic tyre inflation system for a parking facility, designed in SolidWorks and tested to verify its effectiveness.</p>
+          <p>Coursework: Mechanics of Materials and Solid Mechanics, Machine Design and Drafting (CAD).</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <p class="when">Certificates</p>
+        <div class="what">
+          <p>Supervised Machine Learning: Regression and Classification (Stanford Online). Machine Design Part I. Engineering Virtual Experience Program.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap block" id="awards" aria-labelledby="h-awards">
+      <h2 id="h-awards">Awards</h2>
+      <dl class="awards">
+        <div><dt>Innovative and Collaborative Research Grant (ICRG)</dt><dd>Secured a Higher Education Commission (HEC) grant for the final thesis on the automatic tyre inflation system.</dd></div>
+        <div><dt>Best Project Award, ASME</dt><dd>First prize for the automatic tyre inflation system for a parking facility.</dd></div>
+        <div><dt>CUI Tech Fest, COMSATS University Islamabad</dt><dd>Winner of the C++ problem-solving competition.</dd></div>
+        <div><dt>Open Mic Competition, NUST</dt><dd>First position, Best Singer.</dd></div>
+      </dl>
+    </section>
+
+    <section class="wrap block" id="connections" aria-labelledby="h-conn">
+      <h2 id="h-conn">Connections</h2>
+      <dl class="awards">
+        <div><dt>Umar Shahbaz Khan, Ph.D.</dt><dd>Professor, National University of Sciences and Technology (NUST), Islamabad. Co-author on all four papers.</dd></div>
+        <div><dt>Hamid Jabbar, Ph.D.</dt><dd>Professor and Head of Department, NUST, Islamabad. Co-author on the fast charging paper.</dd></div>
+        <div><dt>Hassan Elahi, Ph.D.</dt><dd>Associate Professor, NUST, Islamabad. Co-author on three papers.</dd></div>
+        <div><dt>Ayesha Zeb, Ph.D.</dt><dd>Assistant Professor, NUST, Islamabad. Co-author on two papers.</dd></div>
+        <div><dt>Muhammad Saeed, Ph.D.</dt><dd>Battery modeling research fellow, Shanghai Jiao Tong University. Co-author on all four papers.</dd></div>
+        <div><dt>IEEE</dt><dd>Member.</dd></div>
+      </dl>
+    </section>
+
+  </main>
+
+  <footer class="wrap foot">
+    <p>Sheroz Shahid Tabassum</p>
+    <p>Last updated October 2026</p>
+  </footer>
+</body>
+</html>
