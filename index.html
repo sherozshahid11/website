@@ -65,8 +65,16 @@
       <h2 id="h-research">Research</h2>
       <div class="prose" style="max-width: 100%; width: 100%;">
       <p style="max-width: 100%; width: 100%;">My M.E. thesis, now submitted, asks how far a battery state estimate can be trusted. A 2RC equivalent-circuit observer separates physical features from the measured signals. A physics-informed numeric transformer learns from those features to estimate state of charge. SHAP then shows which features drive each estimate, and the task is framed as a multi-objective problem that trades model simplicity against predictive reliability.</p>
+     
+      <div class="prose sub"style="max-width: 100%; width: 100%;">
+        <h3>The reliability agent</h3>
+        <p style="max-width: 100%; width: 100%;">An accurate estimate is not enough if nobody knows when it stops being accurate. In my IECON work, two interacting agents, coordinated by an explainable reasoning layer, estimate state of charge and internal core temperature. A reliability agent then computes a reliability factor in real time, detects drift, and generates a diagnostic report. This turns a standard monitor into an accountable safety assistant.</p>
       </div>
 
+      <div class="prose sub"style="max-width: 100%; width: 100%;">
+        <h3>Future directions</h3>
+        <p style="max-width: 100%; width: 100%;">I aim to integrate this reliability-aware multi-agentic framework into the grid level, ensuring safety and resilience.</p>
+      </div>
       <ol class="pipeline" aria-label="Thesis pipeline">
         <li><strong>Measured data</strong><span>Voltage, current, temperature</span></li>
         <li><strong>2RC-ECM observer</strong><span>Separates physical features</span></li>
@@ -74,16 +82,6 @@
         <li><strong>SHAP</strong><span>Explains each estimate</span></li>
         <li class="last"><strong>Reliability check</strong><span>Watches for drift</span></li>
       </ol>
-
-      <div class="prose sub">
-        <h3>The reliability agent</h3>
-        <p>An accurate estimate is not enough if nobody knows when it stops being accurate. In my IECON work, two interacting agents, coordinated by an explainable reasoning layer, estimate state of charge and internal core temperature. A reliability agent then computes a reliability factor in real time, detects drift, and generates a diagnostic report. This turns a standard monitor into an accountable safety assistant.</p>
-      </div>
-
-      <div class="prose sub">
-        <h3>Future directions</h3>
-        <p>I aim to integrate this reliability-aware multi-agentic framework into the grid level, ensuring safety and resilience.</p>
-      </div>
     </section>
 
     <section class="wrap block" id="publications" aria-labelledby="h-pub">
